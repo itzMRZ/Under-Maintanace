@@ -62,25 +62,25 @@ export function MaintenancePage() {
       name: 'GitHub',
       icon: Github,
       url: 'https://github.com/itzMRZ',
-      color: '#22c55e', // green
+      color: '#00ff88', // matrix green
     },
     {
       name: 'Facebook',
       icon: Facebook,
       url: 'https://www.facebook.com/AlifMeheraz/',
-      color: '#3b82f6', // blue
+      color: '#00ccff', // electric blue
     },
     {
       name: 'LinkedIn',
       icon: Linkedin,
       url: 'https://www.linkedin.com/in/mrzalif/',
-      color: '#06b6d4', // cyan
+      color: '#9966ff', // purple
     },
     {
       name: 'OnlyFans',
       icon: Heart,
       url: 'https://creations.mtdv.me/onlyfans-itzmrz',
-      color: '#ff4458', // red/pink
+      color: '#ff6b35', // orange
     },
   ];
 
@@ -120,11 +120,11 @@ export function MaintenancePage() {
                         {line}
                       </div>
                     ) : index === 2 ? (
-                      <div className="text-2xl text-primary mb-2">
+                      <div className="text-2xl text-blue-400 mb-2">
                         {line}
                       </div>
                     ) : index === 3 ? (
-                      <div className="text-lg text-cyan-400 mb-4">
+                      <div className="text-lg text-purple-400 mb-4">
                         {line}
                       </div>
                     ) : (
@@ -144,10 +144,10 @@ export function MaintenancePage() {
                 <div className="animate-in fade-in duration-1000">
                   <div className="border-t border-border pt-8">
                     <div className="text-center mb-8">
-                      <h3 className="text-lg text-primary mb-2 font-mono">
-                        // FIND_ME_HERE
+                      <h3 className="text-lg text-blue-400 mb-2 font-mono">
+                        {`// FIND_ME_HERE`}
                       </h3>
-                      <p className="text-sm text-muted-foreground font-mono">
+                      <p className="text-sm text-gray-400 font-mono">
                         Hit me up if you want to chat about code, projects, or random stuff
                       </p>
                     </div>

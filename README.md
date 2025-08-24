@@ -58,4 +58,4 @@ Made by MRZ / VibeCoded *wink wink*
 
 ---
 
-*A playful take on the classic "under maintenance" page with modern web technologies and retro aesthetics.*  
+*A playful take on the classic "under maintenance" page with modern web technologies and retro aesthetics.*

@@ -68,7 +68,7 @@ export function MaintenancePage() {
       name: 'Facebook',
       icon: Facebook,
       url: 'https://www.facebook.com/AlifMeheraz/',
-      color: '#00ccff', // electric blue
+      color: '#ff69b4', // hot pink
     },
     {
       name: 'LinkedIn',
@@ -80,7 +80,7 @@ export function MaintenancePage() {
       name: 'OnlyFans',
       icon: Heart,
       url: 'https://creations.mtdv.me/onlyfans-itzmrz',
-      color: '#ff6b35', // orange
+      color: '#ff1493', // deep pink
     },
   ];
 
@@ -120,11 +120,31 @@ export function MaintenancePage() {
                         {line}
                       </div>
                     ) : index === 2 ? (
-                      <div className="text-xl sm:text-2xl text-blue-400 mb-1 sm:mb-2">
+                      <div className="text-xl sm:text-2xl text-pink-400 mb-1 sm:mb-2">
                         {line}
                       </div>
                     ) : index === 3 ? (
                       <div className="text-base sm:text-lg text-purple-400 mb-2 sm:mb-4">
+                        {line}
+                      </div>
+                    ) : index === 5 ? (
+                      <div className="text-sm sm:text-base text-green-400">
+                        {line}
+                      </div>
+                    ) : index === 6 ? (
+                      <div className="text-sm sm:text-base text-purple-300">
+                        {line}
+                      </div>
+                    ) : index === 7 ? (
+                      <div className="text-sm sm:text-base text-pink-300">
+                        {line}
+                      </div>
+                    ) : index === 8 ? (
+                      <div className="text-sm sm:text-base text-green-300">
+                        {line}
+                      </div>
+                    ) : index === 10 ? (
+                      <div className="text-sm sm:text-base text-purple-400">
                         {line}
                       </div>
                     ) : (
@@ -144,10 +164,10 @@ export function MaintenancePage() {
                 <div className="animate-in fade-in duration-1000">
                   <div className="border-t border-border pt-4 sm:pt-8">
                     <div className="text-center mb-4 sm:mb-8">
-                      <h3 className="text-base sm:text-lg text-blue-400 mb-1 sm:mb-2 font-mono">
+                      <h3 className="text-base sm:text-lg text-green-400 mb-1 sm:mb-2 font-mono">
                         {`// FIND_ME_HERE`}
                       </h3>
-                      <p className="text-xs sm:text-sm text-gray-400 font-mono px-2 sm:px-0">
+                      <p className="text-xs sm:text-sm text-pink-300 font-mono px-2 sm:px-0">
                         Hit me up if you want to chat about code, projects, or random stuff
                       </p>
                     </div>

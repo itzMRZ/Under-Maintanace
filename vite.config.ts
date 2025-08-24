@@ -50,8 +50,14 @@
       },
     },
     build: {
-      target: 'esnext',
+      target: 'es2015',
       outDir: 'build',
+      assetsDir: 'assets',
+      rollupOptions: {
+        output: {
+          manualChunks: undefined,
+        },
+      },
     },
     server: {
       port: 3000,

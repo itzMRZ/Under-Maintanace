@@ -2,6 +2,10 @@
           "name": "retro-crt-terminal-website",
           "version": "0.1.0",
           "private": true,
+          "engines": {
+                    "node": ">=18.18 <21",
+                    "npm": ">=9"
+          },
           "dependencies": {
                     "@radix-ui/react-accordion": "^1.2.3",
                     "@radix-ui/react-alert-dialog": "^1.1.6",

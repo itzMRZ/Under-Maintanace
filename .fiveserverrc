@@ -1,0 +1,7 @@
+{
+  "port": 5500,
+  "open": "build/index.html",
+  "root": "build",
+  "reload": true,
+  "wait": 500
+}
